@@ -1,0 +1,170 @@
+.section1{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+   
+}
+
+.header-logo-text{
+    font-size: 20px;
+    color: #F9FAF8;
+    margin-left : 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    
+    display: flex;
+    gap: 8px;
+    padding-right: 32px;
+    color: #F9FAF8;
+    margin-right: 70px;  
+}
+
+a{text-decoration: none;
+    color: #F9FAF8;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: center;
+}
+   
+
+.title-1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+   
+    
+}
+
+.text-title-1{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0px;
+
+}
+
+.intro-image{
+    background-color: #e5e7eb;
+    padding: 50px 100px;
+    margin-left : 50px;
+    margin-right: 100px;
+}
+
+.buttontop{
+    background-color: #4162e7;
+    color: #F9FAF8;
+    Padding: 10px 0px;  
+    margin-bottom: 30px;
+    width: 30%;
+}
+
+
+/* Section 2 */
+
+.section2{
+    display: flex;
+    flex-direction: column;
+}
+
+.prebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.box{
+    border: solid 8px #1458e0;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;    
+}
+
+.subtext-container{
+    display: flex;
+    flex-direction: column;
+    
+          
+}
+  
+.subtext{max-width: 90px;
+    margin-left: 10px;
+}
+.title-2{text-align: center;}
+
+
+
+/* Section 3 */
+
+.section3{
+    display:flex;
+    background-color: #b1b1b1;
+    justify-content: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.quotetext{font-size: large;
+}
+
+.bywho{display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+ 
+
+/* Section 4 */
+
+.section4{display: flex;
+justify-content: center;}
+
+.section4-box{
+    display: flex;
+    align-items: center;
+    background-color: #4162e7;
+    margin: 20px;
+    padding: 30px;
+    gap: 20px;
+    }
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    }
+
+.signtext{color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    }
+
+.buttonbottom{
+   background-color:#4162e7;
+   color: #F9FAF8;
+   border: 2px solid #F9FAF8;
+   border-radius: 8px;
+    }
